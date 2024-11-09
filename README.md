@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header.svg?" alt="Yet Another Programming Assistant" />
+  <img src="header.svg?1" alt="Yet Another Programming Assistant" />
 </div>
 
 A Node.js-based semi-autonomous coding assistant that helps you build and test software modules. Think of it as a very capable junior developer who can understand requirements, write code, and run extensive tests.
