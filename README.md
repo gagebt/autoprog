@@ -78,4 +78,4 @@ To edit an existing project:
 
 ## License
 
-MIT
+AGPL-3.0 (Make the derivative projects open source)
