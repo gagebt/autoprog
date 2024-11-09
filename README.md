@@ -1,6 +1,7 @@
 # Yet Another Programming Assistant
 
 A Node.js-based semi-autonomous coding assistant that helps you build and test software modules. Think of it as a very capable junior developer who can understand requirements, write code, and run extensive tests.
+It's somewhat early in development, so it outputs debug info.
 
 ## What it can do
 
@@ -36,6 +37,7 @@ A Node.js-based semi-autonomous coding assistant that helps you build and test s
 1. Clone and install:
    ```
    git clone https://github.com/gagebt/autoprog.git
+   cd autoprog
    npm install
    ```
 
@@ -47,6 +49,8 @@ A Node.js-based semi-autonomous coding assistant that helps you build and test s
    ```
    node assistant.js
    ```
+
+4. Enter your project idea. Prefer non-GUI ones.
 
 ## Quick Commands
 
