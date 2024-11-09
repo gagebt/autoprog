@@ -1,76 +1,62 @@
 <div align="center">
   <img src="header.svg" alt="Yet Another Programming Assistant" />
-  
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-  [![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)](https://openai.com/)
 </div>
 
-<p align="center">A powerful Node.js-based semi-autonomous coding assistant that helps you build and test software modules. Think of it as a very capable junior developer who can understand requirements, write code, and run extensive tests. 🚀</p>
+A Node.js-based semi-autonomous coding assistant that helps you build and test software modules. Think of it as a very capable junior developer who can understand requirements, write code, and run extensive tests.
 
----
+It's somewhat early in development, so it outputs debug info.
 
-## ✨ Features
+## ✨ What it can do
 
-- 📝 Write complete software modules from your requirements
-- 🧪 Run comprehensive tests (might require prompting)
-- 📚 Read online documentation for the task
-- 🌐 Handle browser automation tasks
-- 📂 Process files and execute system commands
-- 🔄 Merge and update existing code
+- Write complete software modules from your requirements
+- Run comprehensive tests (might require prompting)
+- Read online documentation for the task
+- Handle some browser automation tasks
+- Process files and execute system commands
+- Merge and update existing code
 
-## 🚀 How it works
+## 🤖 How it works
 
-### 1️⃣ Describe Your Needs
-Simply tell the assistant what you need:
+1. Describe what you need:
 ```bash
 "Create a module that processes CSV files and handles encoding errors"
 ```
 
-### 2️⃣ Let the Assistant Work
-The assistant will:
-- 📋 Break down the task
-- 📁 Create necessary files
-- 💻 Write the code
-- 🛡️ Add error handling
-- 🧪 Create test cases
-- ▶️ Run tests
-- 📊 Show you the results
+2. The assistant:
+- Breaks down the task
+- Creates necessary files
+- Writes the code
+- Adds error handling
+- Creates test cases
+- Runs tests
+- Shows you the results
 
-### 3️⃣ Review and Guide
-You can:
-- ✅ Check test results
-- 🔄 Request changes
-- ⭐ Add features
-- ⚡ Improve performance
+3. You review and guide:
+- Check test results
+- Request changes
+- Add features
 
 ## 🛠️ Getting Started
 
-### 1. Clone and Install
-
+1. Clone and install:
 ```bash
 git clone https://github.com/gagebt/autoprog.git
 cd autoprog
 npm install
 ```
 
-### 2. Configure API Key
+2. Provide your API key in config.yaml:
 
-#### 2.1 For OpenAI
-- If you have `env.OPENAI_API_KEY`: No action needed
-- Otherwise: Set `apiKey` in config.yaml
+2.1. If your AI provider is OpenAI: if you have env.OPENAI_API_KEY: do nothing, else: set apiKey
 
-#### 2.2 For OpenRouter
-- Set `apiKey` and `baseURL: https://openrouter.ai/api/v1`
-- Recommended: Set `model=cycle` to alternate between GPT and Claude
+2.2. If it's OpenRouter: set apiKey and baseURL: https://openrouter.ai/api/v1. With OpenRouter, it's recommended that you choose model=cycle so the assistant alternates between GPT and Claude.
 
-### 3. Run the Assistant
-
+3. Run:
 ```bash
 node assistant.js
 ```
 
-Then enter your project idea (non-GUI projects recommended).
+4. Enter your project idea. Prefer non-GUI ones.
 
 ## ⚡ Quick Commands
 
@@ -84,18 +70,12 @@ Then enter your project idea (non-GUI projects recommended).
 
 ## 🔧 Advanced Usage
 
-To work with an existing project:
+To edit an existing project:
 1. Run the assistant
-2. Execute `%opendir`
-3. Place your files in the opened directory
-4. Start working with your files through the assistant
+2. Run %opendir in it
+3. Place your files into the directory
+4. Now you can ask the assistant to work with your files
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-  <sub>Built with ❤️ by the community</sub>
-</div>
+MIT
