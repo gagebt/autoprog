@@ -4,7 +4,7 @@
             <style>
                 h1 {
                     margin: 0;
-                    font-size: 50px;
+                    font-size: 40px;
                     color: transparent;
                     background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
                     -webkit-background-clip: text;
@@ -14,7 +14,7 @@
                     line-height: 100px;
                 }
             </style>
-            <h3>Yet Another Programming Assistant</h3>
+            <h1>Yet Another Programming Assistant</h1>
         </div>
     </foreignObject>
 </svg>
