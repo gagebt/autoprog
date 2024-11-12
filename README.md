@@ -65,7 +65,7 @@ node assistant.js
 | `%opendir` | Open current project directory |
 | `%reset` | Erase message history |
 | `%model [name]` | Switch AI model |
-| `%cd [dir_number]` | Change project directory (/files/<dir_number>/) |
+| `%cd [dir_number]` | Change project directory (/files/[dir_number]/) |
 | `%openconfig` | Edit settings |
 
 ## 🔧 Advanced Usage
@@ -78,4 +78,7 @@ To edit an existing project:
 
 ## License
 
-AGPL-3.0 (requires open source when modifying/distributing this software or offering it as a service; but not when just using its outputs, like generated code)
+AGPL-3.0
+Requires open source:
+- when modifying/distributing this software or offering it as a service;
+- but not when just using its outputs, like generated code
