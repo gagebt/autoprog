@@ -78,4 +78,4 @@ To edit an existing project:
 
 ## License
 
-AGPL-3.0 (requires open source when modifying/distributing this software or offering it as a service, but not when just using its outputs)
+AGPL-3.0 (requires open source when modifying/distributing this software or offering it as a service; but not when just using its outputs, like generated code)
