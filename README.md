@@ -81,5 +81,10 @@ To edit an existing project:
 AGPL-3.0
 
 Requires open source:
-- when modifying/distributing this software or offering it as a service;
-- but not when just using its outputs, like generated code
+- when modifying/distributing this _software_ or offering it as a service;
+      
+    
+    
+      
+    
+- but not when just using its _outputs_, like generated code
