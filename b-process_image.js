@@ -19,7 +19,7 @@ async function processImage(inputBuffer) {
         if (loggingEnabled) console.log("Canvas created.");
 
         // Load the image onto the canvas
-        const img = await loadImage(inputBuffer);
+        const img = await loadImage(Buffer.from(inputBuffer));
         ctx.drawImage(img, 0, 0, width, height);
         if (loggingEnabled) console.log("Image loaded onto canvas.");
 
